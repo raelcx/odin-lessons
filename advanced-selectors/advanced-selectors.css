@@ -1,0 +1,7 @@
+main > div {
+    background-color: red;
+}
+
+main > div > div {
+    background-color: blue;
+}
