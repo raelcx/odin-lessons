@@ -54,3 +54,9 @@ p {
   word-spacing: 0.6rem;
   font-family: 'source_code_proregular', sans-serif;
 }
+
+p:hover,
+h1:hover,
+h2:hover {
+  background-color: yellow;
+}
