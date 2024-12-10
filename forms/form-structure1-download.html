@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8"/>
+    <title>Form structure: Task 1</title>
+    <style>
+      body {
+        background-color: #fff;
+        color: #333;
+        font: 1em / 1.4 Helvetica Neue, Helvetica, Arial, sans-serif;
+        padding: 1em;
+        margin: 0;
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+    </style>
+  </head>
+
+  <body>
+    <form>
+      <section>
+        <fieldset>
+          <legend>Personal Details</legend>
+          <p>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name">
+          </p>
+          <p>
+            <label for="age">Age:</label>
+            <input type="number" id="age" name="age">
+          </p>
+    </fieldset>
+    </section>
+
+    <section>
+      <fieldset>
+        <legend>Comment Information</legend>
+
+      <p>
+        <label for="comment">Comment:</label>
+      <input type="text" id="comment" name="comment">
+    </p>
+
+      <p>
+        <label for="email">Email:</label>
+      <input type="email" id="email" name="email">
+    </p>
+
+  </fieldset>
+    </section>
+
+    <fieldset>
+      <legend>Choose all the vegetables you like to eat</legend>
+      <ul>
+        <li>
+          <label for="carrots">Carrots</label>
+          <input
+            type="checkbox"
+            id="carrots"
+            name="vegetable"
+            value="carrots"
+            checked />
+        </li>
+        <li>
+          <label for="peas">Peas</label>
+          <input type="checkbox" id="peas" name="vegetable" value="peas" />
+        </li>
+        <li>
+          <label for="cabbage">Cabbage</label>
+          <input type="checkbox" id="cabbage" name="vegetable" value="cabbage" />
+        </li>
+      </ul>
+    </fieldset>
+    <input type="radio" id="soup" name="meal" value="soup" checked />
+
+    <fieldset>
+      <legend>What is your favorite meal?</legend>
+      <ul>
+        <li>
+          <label for="soup">Soup</label>
+          <input type="radio" id="soup" name="meal" value="soup" checked />
+        </li>
+        <li>
+          <label for="curry">Curry</label>
+          <input type="radio" id="curry" name="meal" value="curry" />
+        </li>
+        <li>
+          <label for="pizza">Pizza</label>
+          <input type="radio" id="pizza" name="meal" value="pizza" />
+        </li>
+      </ul>
+    </fieldset>
+
+    <input type="file" name="file" id="file" accept="image/*" multiple />
+
+
+    <button type="button">This is an <strong>anonymous button</strong></button>
+
+<input type="button" value="This is an anonymous button" />
+
+    
+
+    
+
+    <input type="checkbox" id="questionOne" name="subscribe" value="yes" checked />
+
+
+    <button type="submit">Enviar</button>
+
+
+
+    </form>
+  </body>
+
+</html>
